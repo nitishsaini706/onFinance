@@ -1,0 +1,6 @@
+services:
+  web:
+    build: .
+    image: onfinance:2.0
+    ports:
+      - "8000:5000"
